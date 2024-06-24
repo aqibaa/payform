@@ -1,0 +1,95 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    margin: 15px 30px;
+    padding: 8px;
+}
+.container{
+    background-color: #d9d9d9;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 4px;
+}
+fieldset{
+    background-color: lightgray;
+    border: 1px solid black;
+    
+}
+
+input[type="email"],
+input[type="text"],
+input[type="text"],
+input[name="address"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+ textarea
+{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0px 10px
+    ;
+}
+select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    
+}
+#submit{
+    background-color: rgba(34, 148, 148, 0.76);
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 120px;
+    transition: width 0.5s;
+}
+#submit:hover{
+    width: 300px;
+}
+@media screen and (max-width: 480px){
+    #submit{
+        color: rgb(255, 255, 255);
+        background-color: #3db52b;
+    }
+    #submit:hover{
+        width: 250px;
+    }
+    
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+   section{
+   
+    width: 250px;
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+   
+}
+.lolo img{
+    
+    width: 120px;
+    height: 40px ;
+}
+
+
+
+
